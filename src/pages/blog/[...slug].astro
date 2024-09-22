@@ -1,0 +1,43 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+
+export async function getStaticPaths() {
+    const blogEntries = await getCollection('blog');
+    return blogEntries.map((entry) => ({
+        params: { slug: entry.slug },
+        props: { entry },
+    }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+---
+
+<Layout
+    title={`${entry.data.title} - TimoCodes Blog`}
+    twitterHandle={entry.data.twitterHandle || '@timocodes'}
+>
+    <article class="py-12 max-w-3xl mx-auto">
+        <h1 class="text-4xl font-bold mb-4 text-green-300">
+            {entry.data.title}
+        </h1>
+        <p class="text-purple-400 mb-8">
+            {new Date(entry.data.date).toLocaleDateString()} | {
+                entry.data.author
+            }
+        </p>
+        {
+            entry.data.image && (
+                <img
+                    src={entry.data.image}
+                    alt={entry.data.title}
+                    class="w-full h-64 object-cover mb-8 rounded-lg"
+                />
+            )
+        }
+        <div class="prose prose-invert prose-purple max-w-none">
+            <Content />
+        </div>
+    </article>
+</Layout>

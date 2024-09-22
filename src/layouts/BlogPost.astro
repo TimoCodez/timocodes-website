@@ -1,0 +1,18 @@
+---
+import Layout from './Layout.astro';
+const { frontmatter } = Astro.props;
+---
+
+<Layout title={frontmatter.title}>
+    <head>
+        <!-- Other meta tags -->
+        <meta name="twitter:creator" content={frontmatter.twitterHandle} />
+    </head>
+    <article>
+        <h1>{frontmatter.title}</h1>
+        <p>
+            By {frontmatter.author} on {frontmatter.date.toLocaleDateString()}
+        </p>
+        <slot />
+    </article>
+</Layout>

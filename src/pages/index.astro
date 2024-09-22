@@ -1,16 +1,120 @@
 ---
+import { getCollection } from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+import BlogPostPreview from '../components/BlogPostPreview.astro';
 
+const allPosts = await getCollection('blog');
+const recentPosts = allPosts
+	.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+	.slice(0, 3);
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Layout title="TimoCodes - Cyberpunk Coding Adventures">
+	<section class="relative h-64 flex items-center justify-center mb-12">
+		<img
+			src="/images/cyberpunk-bg.jpg"
+			alt="Cyberpunk Background"
+			class="absolute inset-0 w-full h-full object-cover"
+		/>
+		<div class="absolute inset-0 bg-black bg-opacity-50"></div>
+		<div class="relative text-center z-10">
+			<h1 class="text-4xl font-bold mb-2 text-green-400">
+				Welcome to <span class="text-purple-500">TimoCodes</span>
+			</h1>
+			<p class="text-lg text-green-300">
+				Exploring the digital frontier, one line of code at a time
+			</p>
+		</div>
+	</section>
+
+	<section class="mb-12">
+		<div class="container mx-auto px-4">
+			<h2 class="text-3xl font-bold mb-6 text-green-300">
+				Latest Insights
+			</h2>
+			{
+				recentPosts.length > 0 ? (
+					<div class="space-y-6">
+						{recentPosts.map((post) => (
+							<BlogPostPreview post={post} />
+						))}
+					</div>
+				) : (
+					<p class="text-gray-400">
+						No blog posts available yet. Check back soon!
+					</p>
+				)
+			}
+			<div class="mt-6">
+				<a
+					href="/blog"
+					class="text-purple-400 hover:text-purple-300 transition-colors"
+				>
+					View all posts →
+				</a>
+			</div>
+		</div>
+	</section>
+
+	<section class="mb-12 bg-gray-800 p-6 rounded-lg">
+		<div class="container mx-auto px-4">
+			<h2 class="text-3xl font-bold mb-4 text-green-300">
+				Developer Resources
+			</h2>
+			<p class="mb-6 text-gray-300">
+				Explore my curated collection of awesome repos, tools,
+				resources, and roadmaps for developers.
+			</p>
+			<a
+				href="/resources"
+				class="bg-purple-600 text-white px-6 py-2 rounded-full hover:bg-purple-700 transition-colors inline-block"
+			>
+				Explore Resources
+			</a>
+		</div>
+	</section>
+
+	<section class="mb-12">
+		<div class="container mx-auto px-4">
+			<h2 class="text-3xl font-bold mb-6 text-green-300">
+				Join the Cyberpunk Coding Community
+			</h2>
+			<div class="flex justify-center">
+				<iframe
+					src="https://embeds.beehiiv.com/baafacfb-8c63-47ac-ab45-38e06d923e4a"
+					data-test-id="beehiiv-embed"
+					width="480"
+					height="320"
+					frameborder="0"
+					scrolling="no"
+					style="border-radius: 4px; border: 2px solid #4a5568; margin: 0; background-color: transparent;"
+				>
+				</iframe>
+			</div>
+		</div>
+	</section>
+
+	<section class="bg-gray-800 p-6 rounded-lg text-center">
+		<div class="container mx-auto px-4">
+			<h2 class="text-3xl font-bold mb-4 text-green-300">
+				Let's Connect
+			</h2>
+			<img
+				src="/images/timo-profile.jpg"
+				alt="Timo's Profile"
+				class="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
+			/>
+			<p class="mb-4 text-gray-300">
+				Follow me on X for the latest updates and coding insights.
+			</p>
+			<a
+				href="https://www.x.com/TimoCodes"
+				target="_blank"
+				rel="noopener noreferrer"
+				class="bg-purple-600 text-white px-6 py-2 rounded-full hover:bg-purple-700 transition-colors inline-block"
+			>
+				Follow @TimoCodes
+			</a>
+		</div>
+	</section>
+</Layout>

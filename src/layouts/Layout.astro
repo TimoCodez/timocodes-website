@@ -1,0 +1,40 @@
+---
+import { ViewTransitions } from 'astro:transitions';
+import Navigation from '../components/Navigation.vue';
+import '../styles/global.css';
+
+interface Props {
+    title: string;
+    twitterHandle?: string;
+}
+
+const { title, twitterHandle = '@timocodes' } = Astro.props;
+---
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <meta name="generator" content={Astro.generator} />
+        <title>{title}</title>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <meta name="twitter:creator" content={twitterHandle} />
+        <ViewTransitions />
+    </head>
+    <body class="bg-gray-900 text-green-400 min-h-screen font-mono">
+        <div class="glitch-overlay"></div>
+        <Navigation client:load />
+        <main class="container mx-auto px-4 py-8">
+            <slot />
+        </main>
+        <footer class="text-center py-4 mt-8 border-t border-green-700">
+            <p>
+                &copy; {new Date().getFullYear()} Timocodes. All rights reserved.
+            </p>
+        </footer>
+    </body>
+</html>

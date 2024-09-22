@@ -1,0 +1,21 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import BlogPostPreview from '../../components/BlogPostPreview.astro';
+
+const allPosts = await getCollection('blog');
+const sortedPosts = allPosts.sort(
+    (a, b) => b.data.date.valueOf() - a.data.date.valueOf(),
+);
+---
+
+<Layout title="TimoCodes Blog - Cyberpunk Coding Insights">
+    <section class="py-12">
+        <h1 class="text-4xl font-bold mb-8 text-center text-green-300">
+            Cyberpunk Coding Insights
+        </h1>
+        <div class="space-y-8">
+            {sortedPosts.map((post) => <BlogPostPreview post={post} />)}
+        </div>
+    </section>
+</Layout>
