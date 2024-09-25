@@ -5,7 +5,7 @@ const blogCollection = defineCollection({
     title: z.string(),
     date: z.date(),
     author: z.string(),
-    twitterHandle: z.string().default('@timocodes'), // Add this line
+    twitterHandle: z.string().default('@timocodes'),
     image: z.union([
       image(),
       z.string().url(),
@@ -15,6 +15,14 @@ const blogCollection = defineCollection({
   })
 });
 
+const resourcesCollection = defineCollection({
+  schema: z.object({
+    title: z.string(),
+    description: z.string().optional(),
+  }),
+});
+
 export const collections = {
   'blog': blogCollection,
+  'resources': resourcesCollection,
 };

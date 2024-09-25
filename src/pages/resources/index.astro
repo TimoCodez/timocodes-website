@@ -1,0 +1,20 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import ResourceNavigation from '../../components/ResourceNavigation.astro';
+
+const resources = await getCollection('resources');
+const indexResource = resources.find((resource) => resource.slug === 'index');
+const { Content } = await indexResource.render();
+---
+
+<Layout title="Developer Resources">
+    <div class="flex">
+        <aside class="w-1/4">
+            <ResourceNavigation />
+        </aside>
+        <article class="w-3/4 prose prose-invert max-w-none">
+            <Content />
+        </article>
+    </div>
+</Layout>

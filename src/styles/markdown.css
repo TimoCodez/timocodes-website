@@ -1,0 +1,10 @@
+.prose {
+  /* Add your custom markdown styles here */
+}
+.prose h1 {
+  color: #4ade80; /* green-400 */
+}
+.prose h2 {
+  color: #22d3ee; /* cyan-400 */
+}
+/* ... other custom styles ... */
