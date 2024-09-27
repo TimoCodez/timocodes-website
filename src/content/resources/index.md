@@ -1,18 +1,16 @@
 ---
-title: "Developer Resources"
+title: "Awesome Tech Resources"
 description: "Explore my curated collection of awesome repos, tools, resources, and roadmaps for developers."
 ---
 
-# Awesome Tech and Programming related Repos and Online Resources
-
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-Welcome to this curated collection of awesome repositories on GitHub! This comprehensive guide is designed for developers, aspiring programmers, and anyone interested in exploring the vast world of open-source software. Our list covers programming languages, frameworks, data science, DevOps, and more, offering valuable resources for various stages of development and learning. Here is a link to the [GitHub repo](https://github.com/TimoCodez/awesome-repos-and-resources).
+Welcome to this curated collection of awesome repositories on GitHub! This comprehensive directory is designed for developers, aspiring programmers, and anyone interested in exploring the vast world of open-source software and different tech related resources. This list covers programming languages, frameworks, data science, DevOps, and more, offering valuable resources for various stages of development and learning. Here is a link to the [GitHub repo](https://github.com/TimoCodez/awesome-repos-and-resources).
 
 ## Navigation Guide
 
 <!-- Here’s where your Vue component will be loaded -->
-<ResourceNavigation resources={resources} client:load />
+
 
 Our resources are organized into the following main categories:
 
