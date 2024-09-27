@@ -1,10 +1,77 @@
 .prose {
-  /* Add your custom markdown styles here */
+  color: #a3e635; /* light green for main text */
 }
+
+/* Headings */
 .prose h1 {
-  color: #4ade80; /* green-400 */
+  color: #f87171; /* red for h1 */
 }
+
 .prose h2 {
-  color: #22d3ee; /* cyan-400 */
+  color: #facc15; /* yellow for h2 */
 }
-/* ... other custom styles ... */
+
+.prose h3 {
+  color: #34d399; /* green for h3 */
+}
+
+.prose h4 {
+  color: #60a5fa; /* blue for h4 */
+}
+
+.prose h5 {
+  color: #c084fc; /* purple for h5 */
+}
+
+.prose h6 {
+  color: #f97316; /* orange for h6 */
+}
+
+.prose a {
+  color: #e879f9; /* purple for links */
+  text-decoration: underline;
+}
+
+.prose a:hover {
+  color: #f0abfc; /* lighter purple on hover */
+}
+
+.prose p, .prose ul, .prose ol {
+  margin-bottom: 1em;
+}
+
+/* Bolded text */
+.prose strong {
+  color: #fbbf24; /* amber for bolded text */
+  font-weight: bold;
+}
+
+.prose code {
+  color: #fbbf24; /* amber for inline code */
+  background-color: #1f2937; /* dark gray background */
+  padding: 0.2em 0.4em;
+  border-radius: 0.3em;
+}
+
+.prose pre {
+  background-color: #1f2937; /* dark gray background for code blocks */
+  padding: 1em;
+  border-radius: 0.5em;
+  overflow-x: auto;
+}
+
+.prose pre code {
+  color: #f0abfc; /* light purple for code block content */
+  background-color: transparent;
+  padding: 0;
+}
+
+.prose blockquote {
+  border-left: 4px solid #22d3ee; /* cyan border for blockquotes */
+  padding-left: 1em;
+  color: #94a3b8; /* lighter text for blockquotes */
+}
+
+.prose hr {
+  border-color: #4b5563; /* gray for horizontal rules */
+}

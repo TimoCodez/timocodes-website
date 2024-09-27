@@ -9,7 +9,7 @@ This section provides curated lists of resources for various programming languag
 - [Table of Contents](#table-of-contents)
 - [JavaScript](#javascript)
 - [Python](#python)
-  - [Machine Learning with Python](#machine-learning-with-python)
+    - [Machine Learning with Python](#machine-learning-with-python)
 - [Java](#java)
 - [SQL](#sql)
 - [NoSQL](#nosql)
@@ -26,7 +26,7 @@ This section provides curated lists of resources for various programming languag
 - [The Python Open Source CS Degree](https://github.com/ForrestKnight/open-source-cs-python/blob/master/README.md): Compiled list of free resources that satisfy the same requirements as an undergraduate Computer Science degree.
 - [Python CS50](https://cs50.harvard.edu/python/2022/): Python CS50 course from Harvard University.
 
-### Machine Learning with Python
+#### Machine Learning with Python
 - [Awesome Machine Learning](https://github.com/josephmisiti/awesome-machine-learning): Curated resources for machine learning, including frameworks and libraries.
 - [Machine Learning for beginners](https://github.com/microsoft/ML-For-Beginners): 12 weeks ML course by Microsoft.
 - [MIT Deeplearning book](https://github.com/janishar/mit-deep-learning-book-pdf?tab=readme-ov-file): The MIT Deeplearning book in PDF format, including project templates and other resources.
