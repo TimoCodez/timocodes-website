@@ -16,7 +16,7 @@
         <li><a @click="closeMenu" href="/" class="hover:text-purple-400 transition-colors block">Home</a></li>
         <li><a @click="closeMenu" href="/projects" class="hover:text-purple-400 transition-colors block">Projects</a></li>
         <li><a @click="closeMenu" href="/blog" class="hover:text-purple-400 transition-colors block">Blog</a></li>
-        <li><a @click="closeMenu" href="/resources/index" class="hover:text-purple-400 transition-colors block">Resources</a></li>
+        <li><a @click="closeMenu" href="/resources/" class="hover:text-purple-400 transition-colors block">Resources</a></li>
         <li><a @click="closeMenu" href="/contact" class="hover:text-purple-400 transition-colors block">Contact</a></li>
       </ul>
     </div>

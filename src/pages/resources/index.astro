@@ -1,20 +1,23 @@
 ---
 import { getCollection } from 'astro:content';
 import Layout from '../../layouts/Layout.astro';
-import ResourceNavigation from '../../components/ResourceNavigation.astro';
+import ResourceNavigation from '../../components/ResourceNavigation.vue';
 
 const resources = await getCollection('resources');
 const indexResource = resources.find((resource) => resource.slug === 'index');
 const { Content } = await indexResource.render();
 ---
 
-<Layout title="Developer Resources">
-    <div class="flex">
-        <aside class="w-1/4">
-            <ResourceNavigation />
+<Layout title="Awesome Tech Resources">
+    <div class="flex flex-col md:flex-row gap-8">
+        <aside class="md:w-1/4">
+            <ResourceNavigation client:load resources={resources} />
         </aside>
-        <article class="w-3/4 prose prose-invert max-w-none">
-            <Content />
-        </article>
+        <main class="md:w-3/4">
+            <article class="prose max-w-none bg-gray-800 p-6 rounded-lg">
+                <h1>Awesome Tech Resources</h1>
+                <Content />
+            </article>
+        </main>
     </div>
 </Layout>

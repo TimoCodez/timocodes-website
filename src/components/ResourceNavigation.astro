@@ -10,102 +10,39 @@ const topLevelResources = resources
     .sort((a, b) => a.data.title.localeCompare(b.data.title));
 ---
 
-<div class="resource-nav-container">
-    <button
-        id="toggleNav"
-        class="md:hidden bg-purple-600 text-white p-2 rounded-full fixed top-4 left-4 z-50"
-    >
-        <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            class="w-6 h-6"
-        >
-            <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M4 6h16M4 12h16m-7 6h7"></path>
-        </svg>
-    </button>
-
-    <nav
-        id="resourceNav"
-        class="resource-nav bg-gray-800 p-4 rounded-lg fixed left-0 top-0 h-full w-64 transform -translate-x-full transition-transform duration-200 ease-in-out md:translate-x-0 z-40"
-    >
-        <h2 class="text-xl font-bold text-green-400 mb-4">Resources</h2>
-        <ul class="space-y-2">
-            {
-                rootResource && (
-                    <li>
-                        <a
-                            href="/resources/index"
-                            class="text-pink-500 hover:text-pink-400 transition-colors font-bold"
-                        >
-                            {rootResource.data.title}
-                        </a>
-                    </li>
-                )
-            }
-            {
-                topLevelResources.map((resource) => (
-                    <li>
-                        <a
-                            href={`/resources/${resource.slug}`}
-                            class="text-purple-400 hover:text-purple-300 transition-colors"
-                        >
-                            {resource.data.title}
-                        </a>
-                    </li>
-                ))
-            }
-        </ul>
-    </nav>
-</div>
-
-<script>
-    const toggleNav = document.getElementById('toggleNav');
-    const resourceNav = document.getElementById('resourceNav');
-
-    toggleNav.addEventListener('click', () => {
-        resourceNav.classList.toggle('-translate-x-full');
-    });
-
-    // Close menu when clicking outside
-    document.addEventListener('click', (event) => {
-        const isClickInside =
-            resourceNav.contains(event.target) ||
-            toggleNav.contains(event.target);
-        if (
-            !isClickInside &&
-            !resourceNav.classList.contains('-translate-x-full')
-        ) {
-            resourceNav.classList.add('-translate-x-full');
+<nav class="resource-nav bg-gray-800 p-4 rounded-lg sticky top-4">
+    <h2 class="text-xl font-bold text-green-400 mb-4">Resources</h2>
+    <ul class="space-y-2">
+        {
+            rootResource && (
+                <li>
+                    <a
+                        href="/resources/"
+                        class="text-pink-500 hover:text-pink-400 transition-colors font-bold"
+                    >
+                        {rootResource.data.title}
+                    </a>
+                </li>
+            )
         }
-    });
-</script>
+        {
+            topLevelResources.map((resource) => (
+                <li>
+                    <a
+                        href={`/resources/${resource.slug}/`}
+                        class="text-purple-400 hover:text-purple-300 transition-colors"
+                    >
+                        {resource.data.title}
+                    </a>
+                </li>
+            ))
+        }
+    </ul>
+</nav>
 
 <style>
     .resource-nav {
-        max-height: 100vh;
+        max-height: calc(100vh - 2rem);
         overflow-y: auto;
-    }
-    .resource-nav::-webkit-scrollbar {
-        width: 8px;
-    }
-    .resource-nav::-webkit-scrollbar-track {
-        background: #1f2937;
-    }
-    .resource-nav::-webkit-scrollbar-thumb {
-        background-color: #4b5563;
-        border-radius: 20px;
-    }
-    .resource-nav ul {
-        padding-left: 0;
-        list-style-type: none;
-    }
-    .resource-nav li {
-        margin-bottom: 0.5rem;
     }
 </style>

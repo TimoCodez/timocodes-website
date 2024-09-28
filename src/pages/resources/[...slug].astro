@@ -1,31 +1,32 @@
 ---
 import { getCollection } from 'astro:content';
 import Layout from '../../layouts/Layout.astro';
-import ResourceNavigation from '../../components/ResourceNavigation.astro';
-import '../../styles/markdown.css';
+import ResourceNavigation from '../../components/ResourceNavigation.vue';
 
 export async function getStaticPaths() {
     const resources = await getCollection('resources');
-    return resources.map((entry) => ({
-        params: { slug: entry.slug },
-        props: { entry },
-    }));
+    return resources
+        .filter((entry) => entry.slug !== 'index')
+        .map((entry) => ({
+            params: { slug: entry.slug },
+            props: { entry, resources },
+        }));
 }
 
-const { entry } = Astro.props;
+const { entry, resources } = Astro.props;
 const { Content } = await entry.render();
 ---
 
 <Layout title={entry.data.title}>
-    <ResourceNavigation />
-    <div class="md:ml-64 p-4">
-        <article
-            class="prose prose-invert max-w-none bg-gray-800 p-6 rounded-lg"
-        >
-            <h1 class="text-4xl font-bold mb-6 text-pink-500">
-                {entry.data.title}
-            </h1>
-            <Content />
-        </article>
+    <div class="flex flex-col md:flex-row gap-8">
+        <aside class="md:w-1/4">
+            <ResourceNavigation client:load resources={resources} />
+        </aside>
+        <main class="md:w-3/4">
+            <article class="prose max-w-none bg-gray-800 p-6 rounded-lg">
+                <h1>{entry.data.title}</h1>
+                <Content />
+            </article>
+        </main>
     </div>
 </Layout>

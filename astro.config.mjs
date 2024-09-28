@@ -4,4 +4,8 @@ import tailwind from "@astrojs/tailwind";
 
 export default defineConfig({
   integrations: [vue(), tailwind()],
+  output: 'static',
+  build: {
+    format: 'directory'
+  },
 });

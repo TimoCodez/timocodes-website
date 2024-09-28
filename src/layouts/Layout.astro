@@ -1,14 +1,9 @@
 ---
-import { ViewTransitions } from 'astro:transitions';
-import Navigation from '../components/Navigation.vue';
 import '../styles/global.css';
+import '../styles/markdown.css';
+import Navigation from '../components/Navigation.vue';
 
-interface Props {
-    title: string;
-    twitterHandle?: string;
-}
-
-const { title, twitterHandle = '@timocodes' } = Astro.props;
+const { title } = Astro.props;
 ---
 
 <html lang="en">
@@ -22,19 +17,12 @@ const { title, twitterHandle = '@timocodes' } = Astro.props;
             href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap"
             rel="stylesheet"
         />
-        <meta name="twitter:creator" content={twitterHandle} />
-        <ViewTransitions />
     </head>
-    <body class="bg-gray-900 text-green-400 min-h-screen font-mono">
+    <body>
         <div class="glitch-overlay"></div>
         <Navigation client:load />
         <main class="container mx-auto px-4 py-8">
             <slot />
         </main>
-        <footer class="text-center py-4 mt-8 border-t border-green-700">
-            <p>
-                &copy; {new Date().getFullYear()} Timocodes. All rights reserved.
-            </p>
-        </footer>
     </body>
 </html>
