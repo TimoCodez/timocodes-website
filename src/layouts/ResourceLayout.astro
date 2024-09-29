@@ -1,9 +1,19 @@
 ---
 import BaseLayout from './BaseLayout.astro';
 const { frontmatter } = Astro.props;
+
+const ogImage = '/images/resource-card.jpg';
+const ogDescription =
+    frontmatter.description ||
+    'Explore curated developer resources on TimoCodes directory';
 ---
 
-<BaseLayout title={frontmatter.title}>
+<BaseLayout
+    title={frontmatter.title}
+    description={ogDescription}
+    image={ogImage}
+    type="article"
+>
     <article class="prose dark:prose-invert max-w-none">
         <h1>{frontmatter.title}</h1>
         <slot />

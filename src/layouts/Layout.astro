@@ -3,7 +3,24 @@ import '../styles/global.css';
 import '../styles/markdown.css';
 import Navigation from '../components/Navigation.vue';
 
-const { title } = Astro.props;
+interface Props {
+    title: string;
+    description?: string;
+    image?: string;
+    type?: 'website' | 'article';
+}
+
+const {
+    title,
+    description = 'TimoCodes - Built By Coders, For Coders. Find awesome curated Tech, programming, web3, datascience, data-analytics resources, tools and articles ',
+    image = '/images/socials-card.jpg',
+    type = 'website',
+} = Astro.props;
+
+// Fallback for site URL
+const siteUrl = new URL(Astro.site || 'https://timocodes.com'); // Replace with your actual domain
+const pageUrl = new URL(Astro.url.pathname, siteUrl);
+const imageUrl = new URL(image, siteUrl);
 ---
 
 <html lang="en">
@@ -13,10 +30,27 @@ const { title } = Astro.props;
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <meta name="generator" content={Astro.generator} />
         <title>{title}</title>
+        <meta name="description" content={description} />
+        <meta name="robots" content="index,follow" />
+        <link rel="canonical" href={pageUrl} />
         <link
             href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap"
             rel="stylesheet"
         />
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content={type} />
+        <meta property="og:url" content={pageUrl} />
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={description} />
+        <meta property="og:image" content={imageUrl} />
+
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content={pageUrl} />
+        <meta property="twitter:title" content={title} />
+        <meta property="twitter:description" content={description} />
+        <meta property="twitter:image" content={imageUrl} />
     </head>
     <body>
         <div class="glitch-overlay"></div>
