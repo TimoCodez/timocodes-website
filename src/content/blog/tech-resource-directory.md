@@ -4,12 +4,12 @@ date: 2023-09-28
 author: "TimoCodes"
 twitterHandle: "@timocodes"
 image: "/images/tech-resource-directory.jpg"
-description: "Learn how I built a comprehensive directory of free and affordable resources for developers of all levels."
+description: "Learn how I am building a comprehensive directory of free and affordable resources for developers of all levels."
 ---
 
 # Launching the Ultimate Developer Resource Directory
 
-Building a directory of tech resources for developers at all levels has been a goal of mine for a long time. With so many tools, tutorials, and platforms out there, it can be overwhelming to know where to start. I was once there, lost in the shiny object hunt for the next best resource so in order for you to avoid the same struggle. Because of that I wanted to create a curated collection that anyone can rely on, whether they’re just starting out or looking to level up their skills.
+Building a directory of tech resources for developers at all levels has been a goal of mine for a long time. With so many tools, tutorials, and platforms out there, it can be overwhelming to know where to start. I was once there, lost in the shiny object hunt for the next best resource so in order for you to avoid the same struggle. Because of that I wanted to create a curated collection that anyone can rely on, whether they’re just starting out or looking to level up their skills. You can find it on the navigation or just click <a href="https://timocodes.com/resources/" target="_blank">here!</a>
 
 ## Why a Tech Resource Directory?
 

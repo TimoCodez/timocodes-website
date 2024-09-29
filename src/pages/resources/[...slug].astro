@@ -18,6 +18,23 @@ const { Content } = await entry.render();
 ---
 
 <Layout title={entry.data.title}>
+    <head>
+        <!-- Twitter Card Meta Tags for Resources Page -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={entry.data.title} />
+        <meta
+            name="twitter:description"
+            content={entry.data.description ||
+                'Check out this resource on TimoCodes'}
+        />
+        <!-- Use the provided image path or the one defined in frontmatter -->
+        <meta
+            name="twitter:image"
+            content={entry.data.image || '/images/resource-card.jpg'}
+        />
+        <meta name="twitter:site" content="@timocodes" />
+    </head>
+
     <div class="flex flex-col md:flex-row gap-8">
         <aside class="md:w-1/4">
             <ResourceNavigation client:load resources={resources} />
