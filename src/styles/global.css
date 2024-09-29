@@ -26,10 +26,10 @@ body {
   pointer-events: none;
 }
 
-.glitch-text {
+/* .glitch-text {
   position: relative;
   animation: glitch 1s linear infinite;
-}
+} */
 
 @keyframes glitch {
   2%, 64% {
@@ -41,4 +41,36 @@ body {
   62% {
     transform: translate(0, 0) skew(5deg);
   }
+}
+
+.glow-button {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.glow-button::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: linear-gradient(45deg, #ff00ff, #00ffff, #ff00ff, #00ffff);
+  background-size: 400% 400%;
+  z-index: -1;
+  filter: blur(5px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.glow-button:hover::before {
+  opacity: 1;
+}
+
+@keyframes glowing {
+  0% { background-position: 0 0; }
+  50% { background-position: 400% 0; }
+  100% { background-position: 0 0; }
 }

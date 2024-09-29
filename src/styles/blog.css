@@ -1,0 +1,15 @@
+.blog-post-preview {
+  transition: all 0.3s ease;
+}
+
+.blog-post-preview:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(123, 58, 245, 0.2);
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}

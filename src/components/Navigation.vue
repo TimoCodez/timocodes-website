@@ -14,10 +14,10 @@
       </div>
       <ul :class="['md:flex', 'md:space-x-4', 'md:items-center', {'hidden': !isMenuOpen, 'block fixed inset-0 top-16 bg-gray-800 p-4 space-y-4 z-50': isMenuOpen}]">
         <li><a @click="closeMenu" href="/" class="hover:text-purple-400 transition-colors block">Home</a></li>
-        <li><a @click="closeMenu" href="/projects" class="hover:text-purple-400 transition-colors block">Projects</a></li>
+        <!-- <li><a @click="closeMenu" href="/projects" class="hover:text-purple-400 transition-colors block">Projects</a></li> -->
         <li><a @click="closeMenu" href="/blog" class="hover:text-purple-400 transition-colors block">Blog</a></li>
         <li><a @click="closeMenu" href="/resources/" class="hover:text-purple-400 transition-colors block">Resources</a></li>
-        <li><a @click="closeMenu" href="/contact" class="hover:text-purple-400 transition-colors block">Contact</a></li>
+        <!-- <li><a @click="closeMenu" href="/contact" class="hover:text-purple-400 transition-colors block">Contact</a></li> -->
       </ul>
     </div>
   </nav>

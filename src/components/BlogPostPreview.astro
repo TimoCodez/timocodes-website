@@ -2,32 +2,36 @@
 const { post } = Astro.props;
 ---
 
-<div class="bg-gray-800 p-6 rounded-lg">
+<article
+    class="bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-purple-500/50 transition-all duration-300 blog-post-preview"
+>
     {
         post.data.image && (
             <img
                 src={post.data.image}
                 alt={post.data.title}
-                class="w-full h-48 object-cover mb-4 rounded"
+                class="w-full h-40 object-cover"
             />
         )
     }
-    <h3 class="text-2xl font-bold mb-2 text-green-300">
+    <div class="p-4">
+        <h3 class="text-xl font-bold mb-2 text-green-300">
+            <a
+                href={`/blog/${post.slug}`}
+                class="hover:text-purple-400 transition-colors"
+            >
+                {post.data.title}
+            </a>
+        </h3>
+        <p class="text-gray-400 text-sm mb-2">
+            {new Date(post.data.date).toLocaleDateString()}
+        </p>
+        <p class="text-gray-300 mb-4 line-clamp-3">{post.data.description}</p>
         <a
             href={`/blog/${post.slug}`}
-            class="hover:text-purple-400 transition-colors"
+            class="text-purple-400 hover:text-purple-300 transition-colors"
         >
-            {post.data.title}
+            Read more →
         </a>
-    </h3>
-    <p class="text-gray-400 text-sm mb-4">
-        {new Date(post.data.date).toLocaleDateString()}
-    </p>
-    <p class="text-gray-300 mb-4">{post.data.description}</p>
-    <a
-        href={`/blog/${post.slug}`}
-        class="text-purple-400 hover:text-purple-300 transition-colors"
-    >
-        Read more →
-    </a>
-</div>
+    </div>
+</article>
