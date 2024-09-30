@@ -94,7 +94,8 @@ Get feedback: Constantly iterate based on client feedback.
 Market yourself: Start sharing your work online, blog about your projects, or create tutorials on YouTube.
 
 Think of your brand as an evolving project—always room to grow.
-Conclusion: Meaningful Projects Are Built on Strategy
+
+## Conclusion: Meaningful Projects Are Built on Strategy
 
 Build with intention, not by accident.
 
