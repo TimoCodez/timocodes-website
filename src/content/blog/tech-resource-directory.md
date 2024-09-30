@@ -1,6 +1,6 @@
 ---
 title: "Launching the Ultimate Developer Resource Directory"
-date: 2023-09-28
+date: 2024-09-28
 author: "TimoCodes"
 twitterHandle: "@timocodes"
 image: "/images/tech-resource-directory.jpg"
