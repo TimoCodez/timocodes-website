@@ -14,34 +14,35 @@ This section provides curated lists of resources for cybersecurity professionals
 
 ## General Resources
 
-- [Awesome Pentest by enaqx](https://github.com/enaqx/awesome-pentest): A collection of penetration testing resources, tools, and more. Essential for cybersecurity professionals and penetration testers.
-- [Awesome Cybersecurity by liyansong2018](https://github.com/liyansong2018/awesome-cybersecurity): A curated collection of cybersecurity resources. Great for anyone in the cybersecurity field, including security analysts and ethical hackers.
-- [Awesome Hacking](https://github.com/Hack-with-Github/Awesome-Hacking): A collection of various awesome lists for hackers, pentesters, and security researchers.
-- [Awesome web security](https://github.com/qazbnm456/awesome-web-security): A curated list of web security materials and resources.
-- [Awesome OSINT](https://github.com/jivoi/awesome-osint): A curated list of amazingly awesome OSINT (Open Source Intelligence) resources and tools.
-- [Awesome Cybersecurity](https://github.com/Berkanktk/CyberSecurity): A massive list of Cybersecurity resources and repositories by Berkanktk.
+- <a href="https://github.com/enaqx/awesome-pentest" target="_blank" rel="noopener noreferrer">Awesome Pentest by enaqx</a>: A collection of penetration testing resources, tools, and more. Essential for cybersecurity professionals and penetration testers.
+- <a href="https://github.com/liyansong2018/awesome-cybersecurity" target="_blank" rel="noopener noreferrer">Awesome Cybersecurity by liyansong2018</a>: A curated collection of cybersecurity resources. Great for anyone in the cybersecurity field, including security analysts and ethical hackers.
+- <a href="https://github.com/Hack-with-Github/Awesome-Hacking" target="_blank" rel="noopener noreferrer">Awesome Hacking</a>: A collection of various awesome lists for hackers, pentesters, and security researchers.
+- <a href="https://github.com/qazbnm456/awesome-web-security" target="_blank" rel="noopener noreferrer">Awesome web security</a>: A curated list of web security materials and resources.
+- <a href="https://github.com/jivoi/awesome-osint" target="_blank" rel="noopener noreferrer">Awesome OSINT</a>: A curated list of amazingly awesome OSINT (Open Source Intelligence) resources and tools.
+- <a href="https://github.com/Berkanktk/CyberSecurity" target="_blank" rel="noopener noreferrer">Awesome Cybersecurity</a>: A massive list of Cybersecurity resources and repositories by Berkanktk.
 
 ## Practice Platforms
 
-- [PicoCTF](https://picoctf.org/): Free computer security education program with original content built on a capture-the-flag framework.
-- [TryHackMe](https://tryhackme.com/): Cybersecurity training platform with hands-on exercises and labs.
-- [HackTheBox](https://www.hackthebox.com/): Cybersecurity training platform to level up your hacking skills.
-- [PortSwigger Academy](https://portswigger.net/web-security): Free, online web security training from the creators of Burp Suite.
-- [Hacker101](https://www.hacker101.com/): A free class for web security by HackerOne.
+- <a href="https://picoctf.org/" target="_blank" rel="noopener">PicoCTF</a>: Free computer security education program with original content built on a capture-the-flag framework.
+- <a href="https://tryhackme.com/" target="_blank" rel="noopener">TryHackMe</a>: Cybersecurity training platform with hands-on exercises and labs.
+- <a href="https://www.hackthebox.com/" target="_blank" rel="noopener">HackTheBox</a>: Cybersecurity training platform to level up your hacking skills.
+- <a href="https://portswigger.net/web-security" target="_blank" rel="noopener">PortSwigger Academy</a>: Free, online web security training from the creators of Burp Suite.
+- <a href="https://www.hacker101.com/" target="_blank" rel="noopener">Hacker101</a>: A free class for web security by HackerOne.
 
 ## Bug Bounty Platforms
 
-- [HackerOne](https://www.hackerone.com/): Connects businesses with penetration testers and cybersecurity researchers.
-- [Bugcrowd](https://www.bugcrowd.com/): Crowdsourced cybersecurity platform for multiple solutions including Bug Bounty.
-- [Intigriti](https://www.intigriti.com/): Europe's #1 ethical hacking and bug bounty platform.
+- <a href="https://www.hackerone.com/" target="_blank" rel="noopener">HackerOne</a>: Connects businesses with penetration testers and cybersecurity researchers.
+- <a href="https://www.bugcrowd.com/" target="_blank" rel="noopener">Bugcrowd</a>: Crowdsourced cybersecurity platform for multiple solutions including Bug Bounty.
+- <a href="https://www.intigriti.com/" target="_blank" rel="noopener">Intigriti</a>: Europe's #1 ethical hacking and bug bounty platform.
 
 ## Tools and Platforms
 
-- [Shodan](https://www.shodan.io/): A search engine for Internet-connected devices.
-- [Censys Search](https://search.censys.io/): Search engine for devices, networks, and infrastructure on the internet.
-- [GPT Censys](https://gpt.censys.io/): Censys Search GPT for intelligent searching.
-- [WhiteRabbitNeo](https://www.whiterabbitneo.com/): Cybersecurity-focused chatbot.
-- [F-Secure SMS checker](https://www.f-secure.com/en/text-message-checker): SMS Scam checker (Beta as of 4/2024).
-- [Awesome Censys Queries](https://github.com/thehappydinoa/awesome-censys-queries): A repository of useful Censys queries.
+- <a href="https://www.shodan.io/" target="_blank" rel="noopener">Shodan</a>: A search engine for Internet-connected devices.
+- <a href="https://search.censys.io/" target="_blank" rel="noopener">Censys Search</a>: Search engine for devices, networks, and infrastructure on the internet.
+- <a href="https://gpt.censys.io/" target="_blank" rel="noopener noreferrer">GPT Censys</a>: Censys Search GPT for intelligent searching.
+- <a href="https://www.whiterabbitneo.com/" target="_blank" rel="noopener noreferrer">WhiteRabbitNeo</a>: Cybersecurity-focused chatbot.
+- <a href="https://www.f-secure.com/en/text-message-checker" target="_blank" rel="noopener">F-Secure SMS checker</a>: SMS Scam checker (Beta as of 4/2024).
+- <a href="https://github.com/thehappydinoa/awesome-censys-queries" target="_blank" rel="noopener noreferrer">Awesome Censys Queries</a>: A repository of useful Censys queries.
+
 
 Remember, cybersecurity is a constantly evolving field. Stay updated with the latest trends, tools, and techniques to keep your skills sharp and your systems secure.

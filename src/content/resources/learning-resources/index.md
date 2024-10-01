@@ -16,43 +16,44 @@ This section provides a curated list of free courses, websites, and repositories
 
 ## Online Learning Platforms
 
-- [FreeCodeCamp](https://www.freecodecamp.org/): Free coding bootcamp with interactive tutorials and exercises.
-- [W3Schools](https://www.w3schools.com/): Comprehensive resource for learning web development languages and technologies.
-- [Codecademy](https://www.codecademy.com/): Interactive platform offering free coding classes in various programming languages.
-- [SoloLearn](https://www.sololearn.com/en/): Coding courses for beginners and experienced developers.
-- [Mimo](https://mimo.org/): Interactive coding lessons in a gamified mobile app format.
+- <a href="https://www.freecodecamp.org/" target="_blank" rel="noopener">FreeCodeCamp</a>: Free coding bootcamp with interactive tutorials and exercises.
+- <a href="https://www.w3schools.com/" target="_blank" rel="noopener">W3Schools</a>: Comprehensive resource for learning web development languages and technologies.
+- <a href="https://www.codecademy.com/" target="_blank" rel="noopener">Codecademy</a>: Interactive platform offering free coding classes in various programming languages.
+- <a href="https://www.sololearn.com/en/" target="_blank" rel="noopener">SoloLearn</a>: Coding courses for beginners and experienced developers.
+- <a href="https://mimo.org/" target="_blank" rel="noopener">Mimo</a>: Interactive coding lessons in a gamified mobile app format.
 
 ## Coding Practice Sites
 
-- [Codewars](https://www.codewars.com/): Online code challenges for programming skill development.
-- [LeetCode](https://leetcode.com/): Platform with a vast library of programming problems for practice.
-- [HackerRank](https://www.hackerrank.com/): Coding challenges and competitions for developers.
+- <a href="https://www.codewars.com/" target="_blank" rel="noopener">Codewars</a>: Online code challenges for programming skill development.
+- <a href="https://leetcode.com/" target="_blank" rel="noopener">LeetCode</a>: Platform with a vast library of programming problems for practice.
+- <a href="https://www.hackerrank.com/" target="_blank" rel="noopener">HackerRank</a>: Coding challenges and competitions for developers.
 
 ## Open Source Courses
 
-- [The Odin Project](https://www.theodinproject.com/): Free, open-source curriculum for learning web development.
-- [FullStackOpen](https://fullstackopen.com/en/): Open-source Full-Stack Web Development Course from University of Helsinki and Houston.
-- [CS50](https://cs50.harvard.edu/x/): Harvard University's introduction to computer science and programming.
-- [Py4e.com](https://www.py4e.com/): Python for Everybody, interactive Python tutorials covering the basics of the language.
-- [Dj4e.com](https://www.dj4e.com/): Django for Everybody, interactive Python Django tutorials.
-- [Pg4e.com](https://www.pg4e.com/): PostgreSQL for Everybody, tutorials on working with PostgreSQL databases.
+- <a href="https://www.theodinproject.com/" target="_blank" rel="noopener">The Odin Project</a>: Free, open-source curriculum for learning web development.
+- <a href="https://fullstackopen.com/en/" target="_blank" rel="noopener">FullStackOpen</a>: Open-source Full-Stack Web Development Course from University of Helsinki and Houston.
+- <a href="https://cs50.harvard.edu/x/" target="_blank" rel="noopener">CS50</a>: Harvard University's introduction to computer science and programming.
+- <a href="https://www.py4e.com/" target="_blank" rel="noopener">Py4e.com</a>: Python for Everybody, interactive Python tutorials covering the basics of the language.
+- <a href="https://www.dj4e.com/" target="_blank" rel="noopener">Dj4e.com</a>: Django for Everybody, interactive Python Django tutorials.
+- <a href="https://www.pg4e.com/" target="_blank" rel="noopener">Pg4e.com</a>: PostgreSQL for Everybody, tutorials on working with PostgreSQL databases.
 
 ## Community-Driven Learning
 
-- [freeCodeCamp by freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp): An open-source community that helps you learn to code.
-- [100Devs](https://leonnoel.com/100devs/): Free, community-based program by Leon Noel for tech job skills and full stack development.
+- <a href="https://github.com/freeCodeCamp/freeCodeCamp" target="_blank" rel="noopener noreferrer">freeCodeCamp by freeCodeCamp</a>: An open-source community that helps you learn to code.
+- <a href="https://leonnoel.com/100devs/" target="_blank" rel="noopener">100Devs</a>: Free, community-based program by Leon Noel for tech job skills and full stack development.
 
 ## Specialized Learning Resources
 
-- [Dataquest.io](https://www.dataquest.io/): Courses on data science topics, including SQL, Python, and Machine Learning.
-- [DataCamp](https://www.datacamp.com/): Interactive courses on data science with hands-on projects and community support.
-- [Kaggle](https://www.kaggle.com/): Platform for data scientists with machine learning competitions and shared resources.
-- [Mooc.fi](https://www.mooc.fi/en/study-modules/): Finnish MOOC platform offering courses in programming, Cybersecurity and data science in English and Finnish.
+- <a href="https://www.dataquest.io/" target="_blank" rel="noopener">Dataquest.io</a>: Courses on data science topics, including SQL, Python, and Machine Learning.
+- <a href="https://www.datacamp.com/" target="_blank" rel="noopener">DataCamp</a>: Interactive courses on data science with hands-on projects and community support.
+- <a href="https://www.kaggle.com/" target="_blank" rel="noopener">Kaggle</a>: Platform for data scientists with machine learning competitions and shared resources.
+- <a href="https://www.mooc.fi/en/study-modules/" target="_blank" rel="noopener">Mooc.fi</a>: Finnish MOOC platform offering courses in programming, Cybersecurity and data science in English and Finnish.
 
 ## Additional Resources
 
-- [Best Websites for Programmers by sdmg15](https://github.com/sdmg15/Best-websites-a-programmer-should-visit): An essential list of websites and resources for programmers.
-- [Awesome free courses and certs](https://github.com/cloudcommunity/Free-Certifications): A curated list of free courses and certifications by Cloudcommunity.
-- [Shawn Charles Value](https://shawncharles.com/value): A collection of useful resources collected by Tech X community host and developer Shawn Charles.
+- <a href="https://github.com/sdmg15/Best-websites-a-programmer-should-visit" target="_blank" rel="noopener noreferrer">Best Websites for Programmers by sdmg15</a>: An essential list of websites and resources for programmers.
+- <a href="https://github.com/cloudcommunity/Free-Certifications" target="_blank" rel="noopener noreferrer">Awesome free courses and certs</a>: A curated list of free courses and certifications by Cloudcommunity.
+- <a href="https://shawncharles.com/value" target="_blank" rel="noopener">Shawn Charles Value</a>: A collection of useful resources collected by Tech X community host and developer Shawn Charles.
+
 
 Remember, the key to learning programming is consistent practice and application of what you learn. Don't just passively consume content - actively code, build projects, and solve problems!
