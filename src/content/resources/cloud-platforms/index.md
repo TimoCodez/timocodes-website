@@ -1,6 +1,7 @@
 ---
 title: "Cloud Platforms"
 description: "This section provides curated lists of resources for various cloud platforms. Cloud computing has become an essential part of modern software development and IT infrastructure. Whether you're looking to deploy applications, manage data, or leverage advanced services, these resources will help you navigate the cloud landscape."
+image: "/images/resource-card.jpg"
 ---
 
 This section provides curated lists of resources for various cloud platforms. Cloud computing has become an essential part of modern software development and IT infrastructure. Whether you're looking to deploy applications, manage data, or leverage advanced services, these resources will help you navigate the cloud landscape.

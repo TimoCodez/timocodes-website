@@ -1,6 +1,7 @@
 ---
 title: "Development tools"
 description: "This section provides a curated list of tools, resources, and platforms that can enhance your development workflow. From version control to containerization, these tools are essential for modern software development practices."
+image: "/images/resource-card.jpg"
 ---
 
 This section provides a curated list of tools, resources, and platforms that can enhance your development workflow. From version control to containerization, these tools are essential for modern software development practices.

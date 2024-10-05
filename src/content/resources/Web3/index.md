@@ -1,6 +1,7 @@
 ---
 title: "Web3"
 description: "This section covers a range of specialized areas in Web3 technology and development. From mobile development to system design, these resources dive deep into specific domains of Web3, NFTs, Crypto etc."
+image: "/images/resource-card.jpg"
 ---
 
 This section covers a range of specialized areas in Web3 technology and development. From mobile development to system design, these resources dive deep into specific domains of Web3, NFTs, Crypto etc.

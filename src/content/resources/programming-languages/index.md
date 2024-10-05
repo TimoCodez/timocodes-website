@@ -1,6 +1,7 @@
 ---
 title: "Programming languages"
 description: "Explore my curated collection of awesome repos, tools, resources about different programming languages"
+image: "/images/resource-card.jpg"
 ---
 
 This section provides curated lists of resources for various programming languages. Whether you're looking to learn a new language or find advanced resources for one you already know, you'll find valuable links here.

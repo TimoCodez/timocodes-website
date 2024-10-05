@@ -1,6 +1,7 @@
 ---
 title: "Awesome Tech Resources"
 description: "Discover a curated collection of valuable resources to help developers at all levels learn and grow through free and affordable tools."
+image: "/images/resource-card.jpg"
 ---
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)

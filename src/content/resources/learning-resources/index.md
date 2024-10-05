@@ -1,6 +1,7 @@
 ---
 title: "Learning Resources"
 description: "This section provides a curated list of free courses, websites, and repositories for learning various aspects of programming and technology. Whether you're a beginner starting your coding journey or an experienced developer looking to expand your skills, you'll find valuable resources here."
+image: "/images/resource-card.jpg"
 ---
 
 This section provides a curated list of free courses, websites, and repositories for learning various aspects of programming and technology. Whether you're a beginner starting your coding journey or an experienced developer looking to expand your skills, you'll find valuable resources here.

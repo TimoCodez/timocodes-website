@@ -1,6 +1,7 @@
 ---
 title: "Frameworks and Libraries"
 description: "This section provides curated lists of frameworks and libraries for both front-end and back-end development. These tools can significantly enhance your development workflow and help you build robust applications."
+image: "/images/resource-card.jpg"
 ---
 
 This section provides curated lists of frameworks and libraries for both front-end and back-end development. These tools can significantly enhance your development workflow and help you build robust applications.

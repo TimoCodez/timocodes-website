@@ -1,6 +1,7 @@
 ---
 title: "Cyber Security"
 description: "This section provides curated lists of resources for cybersecurity professionals, enthusiasts, and anyone interested in learning about information security. From penetration testing to bug bounty programs, these resources cover a wide range of cybersecurity topics and tools."
+image: "/images/resource-card.jpg"
 ---
 
 This section provides curated lists of resources for cybersecurity professionals, enthusiasts, and anyone interested in learning about information security. From penetration testing to bug bounty programs, these resources cover a wide range of cybersecurity topics and tools.

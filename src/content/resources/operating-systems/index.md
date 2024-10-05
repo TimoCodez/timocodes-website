@@ -1,6 +1,7 @@
 ---
 title: "Operating Systems"
 description: "This section provides curated lists of resources for various operating systems. Whether you're a system administrator, a developer working across different platforms, or simply interested in exploring different OS environments, you'll find valuable information here."
+image: "/images/resource-card.jpg"
 ---
 This section provides curated lists of resources for various operating systems. Whether you're a system administrator, a developer working across different platforms, or simply interested in exploring different OS environments, you'll find valuable information here.
 

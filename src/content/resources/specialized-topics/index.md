@@ -1,6 +1,7 @@
 ---
 title: "Specialized Topics"
 description: "This section covers a range of specialized areas in technology and development. From mobile development to system design, these resources dive deep into specific domains of software engineering and computer science."
+image: "/images/resource-card.jpg"
 ---
 
 This section covers a range of specialized areas in technology and development. From mobile development to system design, these resources dive deep into specific domains of software engineering and computer science.

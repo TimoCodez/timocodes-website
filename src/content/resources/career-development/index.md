@@ -1,6 +1,7 @@
 ---
 title: "Career Development"
 description: "This section focuses on resources that can help you advance your career in technology. From learning roadmaps to open-source contribution guides, these resources are designed to support your professional growth in the tech industry."
+image: "/images/resource-card.jpg"
 ---
 
 This section focuses on resources that can help you advance your career in technology. From learning roadmaps to open-source contribution guides, these resources are designed to support your professional growth in the tech industry.

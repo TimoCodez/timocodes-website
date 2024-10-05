@@ -1,6 +1,7 @@
 ---
 title: "Hacktoberfest 2024"
 description: "This section provides featured repositories that are participating in Hacktoberfest 2024 and open for contributions."
+image: "/images/resource-card.jpg"
 ---
 
 This section provides featured repositories that are participating in Hacktoberfest 2024 and open for contributions.
