@@ -8,19 +8,21 @@ interface Props {
     description?: string;
     image?: string;
     type?: 'website' | 'article';
+    twitterCreator?: string;
 }
 
 const {
     title,
-    description = 'TimoCodes - Built By Coders, For Coders. Find awesome curated Tech, programming, web3, datascience, data-analytics resources, tools and articles ',
+    description = 'TimoCodes - Built By Coders, For Coders. Find awesome curated resources and articles about getting into tech.',
     image = '/images/socials-card.jpg',
     type = 'website',
+    twitterCreator = '@timocodes', // Default to your handle
 } = Astro.props;
 
 // Fallback for site URL
 const siteUrl = new URL(Astro.site || 'https://timocodes.com'); // Replace with your actual domain
 const pageUrl = new URL(Astro.url.pathname, siteUrl);
-const imageUrl = new URL(image, siteUrl);
+const imageUrl = new URL(image.startsWith('http') ? image : image, siteUrl);
 ---
 
 <html lang="en">
@@ -51,6 +53,7 @@ const imageUrl = new URL(image, siteUrl);
         <meta property="twitter:title" content={title} />
         <meta property="twitter:description" content={description} />
         <meta property="twitter:image" content={imageUrl} />
+        <meta name="twitter:creator" content={twitterCreator} />
     </head>
     <body>
         <div class="glitch-overlay"></div>

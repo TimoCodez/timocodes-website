@@ -3,15 +3,19 @@ import Layout from './Layout.astro';
 const { frontmatter } = Astro.props;
 ---
 
-<Layout title={frontmatter.title}>
-    <head>
-        <!-- Other meta tags -->
-        <meta name="twitter:creator" content={frontmatter.twitterHandle} />
-    </head>
+<Layout
+    title={frontmatter.title}
+    description={frontmatter.description}
+    image={frontmatter.image}
+    type="article"
+    twitterCreator={frontmatter.twitterHandle}
+>
     <article>
         <h1>{frontmatter.title}</h1>
         <p>
-            By {frontmatter.author} on {frontmatter.date.toLocaleDateString()}
+            By {frontmatter.author} on {
+                new Date(frontmatter.date).toLocaleDateString()
+            }
         </p>
         <slot />
     </article>
