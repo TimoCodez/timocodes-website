@@ -21,6 +21,8 @@ This section provides curated lists of resources for cybersecurity professionals
 - <a href="https://github.com/qazbnm456/awesome-web-security" target="_blank" rel="noopener noreferrer">Awesome web security</a>: A curated list of web security materials and resources.
 - <a href="https://github.com/jivoi/awesome-osint" target="_blank" rel="noopener noreferrer">Awesome OSINT</a>: A curated list of amazingly awesome OSINT (Open Source Intelligence) resources and tools.
 - <a href="https://github.com/Berkanktk/CyberSecurity" target="_blank" rel="noopener noreferrer">Awesome Cybersecurity</a>: A massive list of Cybersecurity resources and repositories by Berkanktk.
+- <a href="https://github.com/nyquist/awesome-networking" target="_blank" rel="noopener noreferrer">Awesome Networking</a>: An awesome list of resources to design, implement and operate computer networks.
+- <a href="https://github.com/facyber/awesome-networking" target="_blank" rel="noopener noreferrer">Awesome Networking Part 2</a>: An awesome collection of courses, books, tutorials, software, and other resources about networking.
 
 ## Practice Platforms
 
