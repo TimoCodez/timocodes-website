@@ -17,6 +17,7 @@ Our resources are organized into the following main categories:
 - **Career Development**: Roadmaps and resources to guide you in your tech career journey.
 - **Cloud Platforms**: Information on Azure, GCP, AWS, and other cloud services.
 - **Cybersecurity**: Security resources, practice sites, and bug bounty platforms.
+- **Data/ML/AI**: Data resources and ML and AI resources
 - **Development Tools**: CLI tools, Docker, Kubernetes, and other essential dev tools.
 - **Frameworks and Libraries**: Tools for frontend and backend development.
 - **Hacktoberfest 2024**: Featured and official open source repositories for Hacktoberfest 2024.
