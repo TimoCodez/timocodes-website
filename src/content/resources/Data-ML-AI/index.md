@@ -33,6 +33,8 @@ This section provides curated lists of resources for learning Data/ML/AI
 - <a href="https://github.com/microsoft/ML-For-Beginners" target="_blank" rel="noopener noreferrer">Machine Learning for beginners</a>: 12 weeks ML course by Microsoft
 - <a href="https://github.com/janishar/mit-deep-learning-book-pdf?tab=readme-ov-file" target="_blank" rel="noopener noreferrer">MIT Deeplearning book</a>: The MIT Deeplearning book on PDF format. Repo includes project template and other goodies.
 - <a href="https://github.com/natnew/Awesome-Data-Science" target="_blank" rel="noopener noreferrer">Awesome Data Science</a>: Awesome data science.
+- <a href="https://github.com/academic/awesome-datascience" target="_blank" rel="noopener noreferrer">Awesome Data Science 2</a>: An awesome Data Science repository to learn and apply for real-world problems.
+- <a href="https://github.com/ChristosChristofidis/awesome-deep-learning" target="_blank" rel="noopener noreferrer">Awesome Deep Learning</a>: A curated list of awesome Deep Learning tutorials, projects and communities.
 
 ## Datasets
 - <a href="https://github.com/awesomedata/awesome-public-datasets" target="_blank" rel="noopener noreferrer">Awesome Datasets</a>: This is a list of topic-centric public data sources in high quality.

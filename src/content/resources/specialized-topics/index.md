@@ -9,9 +9,8 @@ This section covers a range of specialized areas in technology and development. 
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
 - [Mobile Development](#mobile-development)
-- [Design Resources](#design-resources)
+- [Design Inspiration and Resource Sites](#design-inspiration-and-resource-sites)
 - [System Design](#system-design)
-- [Data Science and Machine Learning](#data-science-and-machine-learning)
 - [Mathematics for Programmers](#mathematics-for-programmers)
 - [Game Development](#game-development)
 
@@ -22,23 +21,37 @@ This section covers a range of specialized areas in technology and development. 
 - <a href="https://github.com/jondot/awesome-react-native" target="_blank" rel="noopener noreferrer">Awesome React Native</a>: An awesome style list that curates the best React Native libraries, tools, tutorials, articles and more.
 - <a href="https://github.com/Solido/awesome-flutter" target="_blank" rel="noopener noreferrer">Awesome Flutter</a>: An awesome list that curates the best Flutter libraries, tools, tutorials, articles and more.
 
-## Design Resources
+## Design Inspiration and Resource Sites
 
 - <a href="https://github.com/bradtraversy/design-resources-for-developers" target="_blank" rel="noopener noreferrer">Design Resources for Developers</a>: A curated list of design and UI resources for developers.
 - <a href="https://github.com/awesome-css-group/awesome-css" target="_blank" rel="noopener noreferrer">Awesome CSS</a>: A curated list of awesome frameworks, style guides, and other cool nuggets for writing amazing CSS.
 - <a href="https://github.com/aniftyco/awesome-tailwindcss" target="_blank" rel="noopener noreferrer">Awesome Tailwind CSS</a>: A curated list of awesome things related to Tailwind CSS.
+- <a href="https://abduzeedo.com/" target="_blank" rel="noopener">Abduzeedo.com</a>: Daily design inspiration and tutorials.
+- <a href="https://www.awwwards.com/" target="_blank" rel="noopener">Awwwards.com</a>: Awards for design, creativity and innovation on the Internet.
+- <a href="https://www.behance.net/" target="_blank" rel="noopener">Behance.com</a>: Showcase and discover creative work.
+- <a href="https://bestwebsite.gallery/" target="_blank" rel="noopener">Bestwebsite.gallery</a>: Curated gallery of the best websites.
+- <a href="https://www.designspiration.com/" target="_blank" rel="noopener">Designspiration.com</a>: Design inspiration and color palettes.
+- <a href="https://dribbble.com/" target="_blank" rel="noopener">Dribbble.com</a>: Platform for designers to share their work.
+- <a href="https://freebiesui.com/" target="_blank" rel="noopener">FreebiesUI.com</a>: Free UI resources for designers.
+- <a href="https://land-book.com/" target="_blank" rel="noopener">Land-book.com</a>: Website design gallery.
+- <a href="https://www.landingfolio.com/" target="_blank" rel="noopener">Landingfolio.com</a>: Landing page design inspiration.
+- <a href="https://www.lapa.ninja/" target="_blank" rel="noopener">Lapa.ninja</a>: Landing page design inspiration.
+- <a href="https://onepagelove.com/" target="_blank" rel="noopener">Onepagelove.com</a>: One page website inspiration and templates.
+- <a href="https://www.pinterest.com/" target="_blank" rel="noopener">Pinterest.com</a>: Visual discovery engine for finding ideas.
+- <a href="https://saaslandingpage.com/" target="_blank" rel="noopener">Saaslandingpage.com</a>: SaaS landing page examples.
+- <a href="https://screenlane.com/" target="_blank" rel="noopener">Screenlane.com</a>: Web and mobile design inspiration.
+- <a href="https://www.siteinspire.com/" target="_blank" rel="noopenerr">Siteinspire.com</a>: Web design inspiration.
+- <a href="https://sketchrepo.com/" target="_blank" rel="noopener">Sketchrepo.com</a>: Free, high quality Sketch resources.
+- <a href="https://uibundle.com/" target="_blank" rel="noopener">UIbundle.com</a>: Curated UI design resources.
+- <a href="https://uigarage.net/" target="_blank" rel="noopener">Uigarage.net</a>: Daily UI inspiration and patterns.
+- <a href="https://www.uistore.design/" target="_blank" rel="noopener">UiStore.design</a>: Free UI resources for designers.
+- <a href="https://www.xdguru.com/" target="_blank" rel="noopener">Xdguru.com</a>: Adobe XD resources and tutorials.
+- <a href="https://htmlrev.com/" target="_blank" rel="noopener">htmlrev.com</a>: 1500+ free HTML templates For websites, landing pages, blogs, portfolios, ecommerce and admin dashboards
 
 ## System Design
 
 - <a href="https://github.com/donnemartin/system-design-primer" target="_blank" rel="noopener noreferrer">System Design Primer</a>: Learn how to design large-scale systems. Prep for the system design interview.
 - <a href="https://github.com/binhnguyennus/awesome-scalability" target="_blank" rel="noopener noreferrer">Awesome Scalability</a>: The Patterns of Scalable, Reliable, and Performant Large-Scale Systems.
-
-## Data Science and Machine Learning
-
-- <a href="https://github.com/academic/awesome-datascience" target="_blank" rel="noopener noreferrer">Awesome Data Science</a>: An awesome Data Science repository to learn and apply for real-world problems.
-- <a href="https://github.com/josephmisiti/awesome-machine-learning" target="_blank" rel="noopener noreferrer">Awesome Machine Learning</a>: A curated list of awesome Machine Learning frameworks, libraries and software.
-- <a href="https://github.com/ChristosChristofidis/awesome-deep-learning" target="_blank" rel="noopener noreferrer">Awesome Deep Learning</a>: A curated list of awesome Deep Learning tutorials, projects and communities.
-- <a href="https://github.com/awesomedata/awesome-public-datasets" target="_blank" rel="noopener noreferrer">Awesome Public Datasets</a>: A Curated list of Public datasets for you to use in projects.
 
 ## Mathematics for Programmers
 

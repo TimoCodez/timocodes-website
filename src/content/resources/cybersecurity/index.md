@@ -31,6 +31,7 @@ This section provides curated lists of resources for cybersecurity professionals
 - <a href="https://www.hackthebox.com/" target="_blank" rel="noopener">HackTheBox</a>: Cybersecurity training platform to level up your hacking skills.
 - <a href="https://portswigger.net/web-security" target="_blank" rel="noopener">PortSwigger Academy</a>: Free, online web security training from the creators of Burp Suite.
 - <a href="https://www.hacker101.com/" target="_blank" rel="noopener">Hacker101</a>: A free class for web security by HackerOne.
+- <a href="https://www.netacad.com/" target="_blank" rel="noopener">Cisco Networking Academy</a>: Cisco Networking academy with lot of courses to dive into
 
 ## Bug Bounty Platforms
 
