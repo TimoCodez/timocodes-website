@@ -59,3 +59,5 @@ Listen, it’s easy to stay stuck, working on the same meaningless projects, but
 ## Don't know where to start?
 
 Take a look at the list of recources and datasets you can find from the Data resources section <a href="https://timocodes.com/resources/data-ml-ai/" target="_blank">Data/ML/AI Resources</a>.
+
+Stay curious. Stay relentless. Stay ahead by <a href="https://404-found.beehiiv.com/subscribe" target="_blank">subscribing to the 404 Found newsletter</a>

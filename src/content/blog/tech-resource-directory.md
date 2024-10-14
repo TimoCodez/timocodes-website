@@ -56,3 +56,4 @@ Do you want to stay in the loop on the latest additions and helpful content? **S
 
 
 Together, we can build the future of tech learning—one resource at a time.
+Stay curious. Stay relentless. Stay ahead by <a href="https://404-found.beehiiv.com/subscribe" target="_blank">subscribing to the 404 Found newsletter</a>
